@@ -2,5 +2,9 @@
 
 current_time = Time.now.to_i
 
-if Time.now.even?
+if current_time.even?
+  puts "Even!"
+else
+  puts "Odd!"
+end
   
